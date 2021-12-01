@@ -27,6 +27,10 @@ article {
 header {
     color: skyblue;
     text-align: center;
+    padding: 20px;
+    float: left;
+    margin: 20px;  padding: 20px;
+   
 }
 
 
@@ -73,6 +77,7 @@ nav ul li {
 nav li a {
     display: block;
     color: white;
+    background-image: url("afbeeldingen/valorantcircle.jpg"); width: 20px; height: 20px;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
