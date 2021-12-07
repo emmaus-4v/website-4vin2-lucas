@@ -1,3 +1,10 @@
+/* instellingen */
+* {
+    border: 2px solid white;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
 /* Basislayout */
 
 html, body {
@@ -39,6 +46,19 @@ footer {
     padding-bottom: 10px;
 }
 
+.koprij {
+
+}
+
+header {
+float:left;
+width: calc( 100% - 300px - 150px);
+}
+
+nav {
+float:right;
+width:300px;
+}
 
 /* specifieke stijlen */
 
@@ -68,9 +88,11 @@ nav ul {
     padding: 0;
     background-color: #dddddd;
     overflow: hidden;
+    width:250px;
 }
 
 nav ul li {
+    width: 100px;
     float: left;
 }
 
